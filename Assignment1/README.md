@@ -4,4 +4,4 @@
 • Soal 2 - Segitiga Angka\
 • Soal 3 - Faktorial\
 • Soal 4 - Tukar Index Angka\
-• Soal 5 - Angka menjadi Tulisan\
+• Soal 5 - Angka menjadi Tulisan

@@ -9,4 +9,4 @@ Tables (in order of CREATE):\
 • customers\
 • payments\
 • orders\
-• orderDetails\
+• orderDetails
