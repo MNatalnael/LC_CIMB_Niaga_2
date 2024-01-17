@@ -13,3 +13,5 @@ Final Project 2 - Groovy Scripts and JMeter Tests Pokémon API
    Menggunakan Endpoint yang diberikan, dapat diambil seluruh bentuk Pokémon yang ada. Untuk Task ini, dibutuhkan Pokémon yang memiliki Sayap.
 
    Entri Sayap ini diambil, dan mengakses Url tersebut memungkinkan pengambilan seluruh Pokémon yang memiliki Sayap. Seluruh Pokémon tersebut kemudian ditampilkan melalui Log.
+
+Hasil dari masing-masing Tests dapat dilihat pada Screenshot yang terdapat dalam repositori.
