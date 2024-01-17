@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "76cb6fcb-cd1d-468e-a03c-64ff366e939d",
+		"name": "FinalProject1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18299420"
+	},
+	"item": [
+		{
+			"name": "Get PaymentDetails",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/paymentdetail/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"paymentdetail",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post PaymentDetails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"paymentDetailId\": 6,\r\n    \"cardOwnerName\": \"Sheldon Plankton\",\r\n    \"cardNumber\": \"272466435340363\",\r\n    \"expirationDate\": \"2024-12-31\",\r\n    \"securityCode\": \"654789\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/paymentdetail/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"paymentdetail",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get PaymentDetail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/paymentdetail/6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"paymentdetail",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update PaymentDetail",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"paymentDetailId\": 6,\r\n    \"cardOwnerName\": \"Sheldon J. Plankton\",\r\n    \"cardNumber\": \"272466435340363\",\r\n    \"expirationDate\": \"2024-12-31\",\r\n    \"securityCode\": \"654789\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/paymentdetail/6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"paymentdetail",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete PaymentDetail",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/paymentdetail/6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"paymentdetail",
+						"6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
